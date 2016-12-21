@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #333946;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(font/OpenSans-Light.ttf) format('ttf');
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    position: fixed;
+    border-bottom: 1px solid lightgrey;
+    box-shadow: 0px -3px 15px -1px rgba(0,0,0,1);
+    z-index: 100;
+}
+
+.section1 {
+    width: 26%;
+    float: left;
+    text-align: center;
+    margin: 3%;
+}
+
+.section2 {
+    width: 40%;
+    float: left;
+    text-align: center;
+    margin-left: 7%;
+    position: relative;
+}
+
+
+.content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    
+}
+
+.logo {
+    margin: 20px 9%;
+    float: left;
+    width: auto;
+    max-height: 45px;
+    background: no-repeat  center;  
+}
+
+nav {
+    float: right;
+    padding: 20px 17% 20px 0;
+}
+
+nav ul li {
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    
+}
+
+a {
+    text-decoration: none; 
+}
+
+nav ul li a {
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    display: inline;
+    text-align: center;
+}
+
+.icon {
+    background-color: none;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 0px;
+    top: -200px;
+    font-size: 25px;
+}
+
+div.icon p {
+    margin-bottom: 50px;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+div.icon img {
+    height: 60px;
+}
+
+.wall_1 {
+    background: url(images/1.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 1;
+    background-attachment: fixed;
+    width: 100%;
+    height: 800px;
+}
+
+.wall_2{
+    background: url(images/2.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 1;
+    background-attachment: fixed;
+    width: 100%;
+    height: 350px;
+}
+
+.wall_3{
+    background: url(images/3.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 1;
+    background-attachment: fixed;
+    width: 100%;
+    height: 320px;
+}
+
+.wall_4{
+    background: url(images/3.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 1;
+    background-attachment: fixed;
+    width: 100%;
+    height: 250px;
+}
+
+.page_1 {
+    background-color: white;
+    width: 100%;
+    height: 800px;
+    z-index: 2;
+    position: relative;
+
+}
+
+.page_2 {
+    background-color: white;
+    width: 100%;
+    height: 250px;
+    z-index: 2;
+    position: relative;
+
+}
+
+.page_3 {
+    background-color: white;
+    width: 100%;
+    height: 800px;
+    z-index: 2;
+    position: relative;
+
+}
+
+.head {
+    font-size: 25px !important;
+}
+
+div.content section p {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+div.page_1 p.head {
+    font-size: 30px;
+}
+
+ div.page_1 p {
+    text-align: center;
+    width: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    position: relative;
+    font-size: 18px;
+    top: 70px;
+ }
+
+div.page_1 img {
+    width: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    position: absolute;
+    bottom: 0;
+}
+
+div.page_3 div {
+    width: 80%;
+    height: 80%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+}
+
+div.page_3 div img {
+    width: 120%;
+}
+
+div.wall_2 a img {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 50%);
+    position: relative;
+    
+}
+
+div.wall_2 a p{
+    margin-top: 85px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    
+    
+}
+
+
+
+section.section2 p {
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+
+
+.button {
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+    padding: 15px;
+    background-color: #4C4C4C;
+    border: 1px solid #4C4C4C;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    display: block;
+    width: 25% !important;
+    height: auto;
+    transition: all .3s ease;
+}
+
+
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #2E2E2E;
+}
+
+footer img  {
+    max-height: 50px;
+    margin-bottom: -10px;
+    margin-left: 10%;
+
+}
+footer p  {
+   position: relative;
+    color: lightgray;
+    margin-left: 75%;
+    transform: translate(0%, -150%);
+}
+
+#menu-icon {
+            display: hidden;
+            width: 40px;
+            height: 40px;
+            background: url(images/menu_icon.png) center;
+        }
+
+@media screen and (max-width: 478px) {
+            body{
+                position: absolute;
+            }
+        }
+        @media screen and (max-width: 1200px) {
+            header{
+                position: absolute;
+            }
+            #menu-icon {
+                display: inline-block;
+            }
+            nav ul, nav:active ul {
+                text-align: center;
+                display: none;
+                position: absolute;
+                padding: 20px;
+                background: white;
+                border: none;
+                right: 0px;
+                top: 60px;
+                width: 30%;
+            }
+            nav li {
+                text-align: center;
+                width: 100%;
+                padding: 10px 100px;
+                margin: 0;
+            }
+            nav:hover ul{
+                display: block;
+            }
+            .section1 {
+                text-align: center;
+                float: left;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            .page_1 {
+                height: 400px;
+            }
+
+            div.page_1 p {
+                top: 15px;
+                width: auto;
+                left: auto;
+                transform: none;
+            }
+            div.page_1 img {
+                width: 40%;
+            }
+
+            .page_2{
+                height: 350px;
+                position: relative;
+                z-index: 2;
+            }
+            .page_3 {
+                z-index: 2;
+                height: 500px;
+                position: relative;
+
+            }
+}
